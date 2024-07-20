@@ -1,0 +1,151 @@
+@font-face {
+    font-family: "IRANSansX";
+    src: url("../../../public/assets/fonts/IRANSansXFaNum-Regular.woff");
+    src: url("../../../public/assets/fonts/IRANSansX-Regular.woff") format("embedded-opentype"),
+      url("../../../public/assets/fonts/IRANSansX-Bold.woff") format(".woff"),
+      url("../../../public/assets/fonts/IRANSansXFaNum-Bold.woff") format(".woff");
+  }
+
+.container {
+    width: 1440px;
+    height: 485px;
+    background: url("../../../public/assets/images/Tower_Background.jpg") lightgray 50% / cover no-repeat;
+    position: relative;
+    
+}
+
+
+/* Right  */
+.boxMain {
+    display: flex;
+    padding: 17px 18px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 24px;
+    border-radius: 20px;
+    background: #FFF;
+}
+
+.topMain {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.buttomMain {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 21px;
+}
+
+.formContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    position: absolute;
+    right: 267px;
+    top: 49px;
+    border-radius: 20px;
+    background: var(--White, #FFF);
+}
+
+.btnText {
+    color: #000;
+    font-family: IRANSansX;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btnPrimaryText {
+    color: #000;
+    font-family: IRANSansX;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.inputField {
+    color: var(--Dark-Grey, #403F3F);
+    text-align: right;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-family: "IRANSansX";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.inputFieldWrapper {
+    display: flex;
+    padding: 12px 15px;
+    justify-content: flex-end;
+    align-items: center;
+    align-self: stretch;
+    gap: 5px;
+    width: 100%;
+    border-radius: 33px;
+    border: 1px solid var(--Dark-Grey, #403F3F);
+    cursor: text;
+}
+
+.inputFieldsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    gap: 12px;
+}
+
+.txtCard {
+    width: 60px;
+    color: #008FFF;
+    text-align: right;
+    font-family: "IRANSansX";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.txtBox {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+/* Left */
+.leftBox {
+    display: flex;
+    height: 100%;
+    padding: 20px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 36px;
+    flex: 1 0 0;
+    border-radius: 20px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.48) 0%, rgba(0, 0, 0, 0.48) 100%), url("../../../public/assets/images/Tower_Background.jpg") lightgray 50% / cover no-repeat;
+    backdrop-filter: blur(16px);
+    overflow-y: auto;
+}
+
+.card{
+    display: flex;
+    align-items: flex-start;
+    gap: 278px;
+    color: var(--White, #FFF);
+    text-align: right;
+    font-family: IRANSansX;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: #FFF solid 1px;
+    margin-right: 5px;
+}
